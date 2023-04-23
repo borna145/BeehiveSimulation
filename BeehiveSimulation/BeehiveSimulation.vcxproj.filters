@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{29cd6f01-4d6d-4f13-903b-752320ef9184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Bee">
+      <UniqueIdentifier>{0e456441-9506-48cb-834c-8f8ab1e45c44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Hive">
+      <UniqueIdentifier>{2497b1bb-7f80-4340-944e-53fa36b8154f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Map">
+      <UniqueIdentifier>{7eb79af2-d33d-4e47-939a-9ec782b3709f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Bee\OtherBee">
+      <UniqueIdentifier>{f87cd040-3be1-47c1-b879-de6b6c3fed64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Bee\Egg">
+      <UniqueIdentifier>{130524fa-5a71-48ef-9a0f-70c4c739f63e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Enemy">
+      <UniqueIdentifier>{f675cfae-5824-43d1-9d61-a5e1663aa424}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bee.cpp">
+      <Filter>Source Files\src\Bee</Filter>
+    </ClCompile>
+    <ClCompile Include="Hive.cpp">
+      <Filter>Source Files\src\Hive</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files\src\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="QueenBee.cpp">
+      <Filter>Source Files\src\Bee\OtherBee</Filter>
+    </ClCompile>
+    <ClCompile Include="Drone.cpp">
+      <Filter>Source Files\src\Bee\OtherBee</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerBee.cpp">
+      <Filter>Source Files\src\Bee\OtherBee</Filter>
+    </ClCompile>
+    <ClCompile Include="Egg.cpp">
+      <Filter>Source Files\src\Bee\Egg</Filter>
+    </ClCompile>
+    <ClCompile Include="BeeHiveSimulationUtils.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bee.h">
+      <Filter>Source Files\src\Bee</Filter>
+    </ClInclude>
+    <ClInclude Include="Hive.h">
+      <Filter>Source Files\src\Hive</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Source Files\src\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="QueenBee.h">
+      <Filter>Source Files\src\Bee\OtherBee</Filter>
+    </ClInclude>
+    <ClInclude Include="Drone.h">
+      <Filter>Source Files\src\Bee\OtherBee</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerBee.h">
+      <Filter>Source Files\src\Bee\OtherBee</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Source Files\src\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="BearHideout.h">
+      <Filter>Source Files\src\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Flower.h">
+      <Filter>Source Files\src\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Spider.h">
+      <Filter>Source Files\src\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderNest.h">
+      <Filter>Source Files\src\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="BeeHiveSimulationUtils.h">
+      <Filter>Source Files\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Egg.h">
+      <Filter>Source Files\src\Bee\Egg</Filter>
+    </None>
+    <None Include="Bear.h">
+      <Filter>Source Files\src\Enemy</Filter>
+    </None>
+  </ItemGroup>
+</Project>
